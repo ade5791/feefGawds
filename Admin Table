@@ -1,0 +1,18 @@
+
+REATE TABLE Admin ( Id int, 
+
+                                  Player_Name TEXT, 
+                                  Access_id int); 
+
+
+INSERT INTO Admin (id, PLayer_Name, Access_id)  
+VALUES ('Tola', 2 ); 
+
+INSERT INTO Admin (id, PLayer_Name, Access_id)  
+VALUES ('Bamix', 2 ); 
+
+INSERT INTO Admin (id, PLayer_Name, Access_id)  
+VALUES ('Dawich', 2 ); 
+
+INSERT INTO Admin (id, PLayer_Name, Access_id)  
+VALUES ('MIke', 2 ); 
