@@ -1,0 +1,34 @@
+-- Team Table
+
+CREATE TABLE Team( Id int, 
+
+                                   Name TEXT, 
+                                   Captain TEXT, 
+                                   Co_Captain TEXT, 
+                                   Team_Ranking int); 
+
+ 
+INSERT INTO Team (id, name, Captain, Co_Captain, Team_Ranking)
+VALUES ('Back 2 419', 'DJ', 'Nate', 1); 
+
+ 
+INSERT INTO Team (id, name, Captain, Co_Captain, Team_Ranking) 
+VALUES ('Predators', 'Dawich', 'Tola', 2); 
+
+ 
+INSERT INTO Team (id, name, Team_Ranking) 
+VALUES ('Ojuju Calabar', 'ibro', 'MIke', 3); 
+
+ 
+INSERT INTO Team (id, name, Team_Ranking) 
+VALUES ('Raw Dawgs','Demi', 'Niran', 4); 
+
+ 
+INSERT INTO Team (id, name, Team_Ranking) 
+VALUES ('La Roja','Theo', 'Bamix', 5); 
+
+ 
+INSERT INTO Team (id, name, Team_Ranking) 
+VALUES ('Free Agent', 6, Null, Null, Null); 
+
+ 
