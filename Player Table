@@ -1,0 +1,138 @@
+CREATE TABLE Player ( Id int, 
+                                   Name TEXT, 
+                                   Position TEXT, 
+                                   Team_id int, 
+                                   Goals int, 
+                                   Assists int, 
+                                   Player_ratings int, 
+                                   Access_Id int); 
+                                   
+ 
+
+INSERT INTO Player (id, name, position, Team_id, Goals, Assists, Player_ratings, Access_Id) 
+VALUES ('tola', 'cam', 2, 7, 8 , 94, 2); 
+
+ 
+INSERT INTO Player (id, name, position, Team_id, Goals, Assists, Player_ratings, Access_Id) 
+VALUES ('Yemi', 'Lm', 1 , 6, 4, 92, 2); 
+
+ 
+INSERT INTO Player (id, name, position, Team_id, Goals, Assists, Player_ratings, Access_Id) 
+VALUES ( 'Bamix', 'RM', 5, 10, 12 90, 2); 
+
+
+INSERT INTO Player (id, name, position, Team_id, Goals, Assists, Player_ratings, Access_Id) 
+VALUES ('Dawich', 'cdm', 2 ,0 , 0, 94, 2); 
+
+
+INSERT INTO Player (id, name, position, Team_id, Goals, Assists, Player_ratings, Access_Id) 
+VALUES ('Nate', 'cdm', 1, 0 , 2, 94, 1); 
+
+ 
+INSERT INTO Player (id, name, position, Team_id, Goals, Assists, Player_ratings, Access_Id) 
+VALUES ('Olamie', 'ST', 3 , 18, 6, 92, 1); 
+
+ 
+INSERT INTO Player (id, name, position, Team_id, Goals, Assists, Player_ratings, Access_Id) 
+VALUES ('Afalade', 'ST', 1, 16, 8, 92, 1); 
+
+ 
+INSERT INTO Player (id, name, position, Team_id, Goals, Assists, Player_ratings, Access_Id 
+VALUES ('Walexy', 'ST', 4, 15, 3, 89, 1); 
+
+ 
+INSERT INTO Player(id, name, position, Team_id, Goals, Assists, Player_ratings, Access_Id 
+VALUES ('ibro', 'ST', 3 , 15, 491, 1); 
+
+ 
+INSERT INTO Player (id, name, position, Team_id, Goals, Assists, Player_ratings, Access_Id 
+VALUES ('Theo', 'ST', 3 , 13, 6, 94, 1); 
+
+ 
+INSERT INTO Player (id, name, position, Team_id, Goals, Assists, Player_ratings, Access_Id 
+VALUES ('Dara', 'ST', 2, 13, 5, 90, 1); 
+
+
+INSERT INTO Player (id, name, position, Team_id, Goals, Assists, Player_ratings, Access_Id 
+VALUES ('Tayo', 'LF', 4, 13, 8, 93, 1); 
+
+ 
+INSERT INTO Player (id, name, position, Team_id, Goals, Assists, Player_ratings, Access_Id 
+VALUES ('Blaize', 'RM', 1, 12, 9, 95, 1); 
+
+ 
+INSERT INTO Player (id, name, position, Team_id, Goals, Assists, Player_ratings, Access_Id 
+VALUES ('Niran', 'RM', 4, 11, 9, 90, 1); 
+
+ 
+INSERT INTO Player (id, name, position, Team_id, Goals, Assists, Player_ratings, Access_Id 
+VALUES ('Towilz', 'Cam', 5, 10, 2, 92, 1); 
+
+ 
+INSERT INTO Player (id, name, position, Team_id, Goals, Assists, Player_ratings, Access_Id 
+VALUES ('Tobe', 'ST', 2, 10, 8, 91, 1); 
+
+INSERT INTO Player (id, name, position, Team_id, Goals, Assists, Player_ratings, Access_Id 
+VALUES ('Obeh', 'Cam', 3, 6, 3, 90, 1); 
+
+ 
+INSERT INTO Player (id, name, position, Team_id, Goals, Assists, Player_ratings, Access_Id 
+VALUES ('Daniel', 'Cam', 5, 5, 9, 87, 1); 
+
+
+INSERT INTO Player (id, name, position, Team_id, Goals, Assists, Player_ratings, Access_Id 
+VALUES ('Ndy', 'Cam', 5, 5, 7, 89, 1); 
+
+ 
+INSERT INTO Player (id, name, position, Team_id, Goals, Assists, Player_ratings, Access_Id 
+VALUES ('Olawhinski', 'LM', 2, 5, 6, 88, 1); 
+
+
+INSERT INTO Player (id, name, position, Team_id, Goals, Assists, Player_ratings, Access_Id 
+VALUES ('Shazz', 'ST', 4, 5, 8, 88, 1); 
+
+ 
+INSERT INTO Player (id, name, position, Team_id, Goals, Assists, Player_ratings, Access_Id 
+VALUES ('Ojay', 'Cdm', 2, 4, 3, 90, 1); 
+
+ 
+INSERT INTO Player (id, name, position, Team_id, Goals, Assists, Player_ratings, Access_Id 
+VALUES ('Mike', 'Cdm', 3, 4, 3, 91, 1); 
+
+
+INSERT INTO Player (id, name, position, Team_id, Goals, Assists, Player_ratings, Access_Id 
+VALUES ('Yomi', 'Cam', 3, 2, 11, 91, 1); 
+
+
+INSERT INTO Player (id, name, position, Team_id, Goals, Assists, Player_ratings, Access_Id 
+VALUES ('Jibola', 'Cdm', 4, 2, 7, 88, 1); 
+
+ 
+INSERT INTO Player (id, name, position, Team_id, Goals, Assists, Player_ratings, Access_Id 
+VALUES ('Yuwa, 'Cdm', 3, 2, 3, 88, 1); 
+
+ 
+INSERT INTO Player (id, name, position, Team_id, Goals, Assists, Player_ratings, Access_Id 
+VALUES ('Daniel', 'Cam', 5, 5, 9, 87, 1); 
+
+ 
+INSERT INTO Player (id, name, position, Team_id, Goals, Assists, Player_ratings, Access_Id 
+VALUES ('DJ', 'Cdm, 1, 1, 4, 93, 1); 
+
+ 
+INSERT INTO Player (id, name, position, Team_id, Goals, Assists, Player_ratings, Access_Id 
+VALUES ('Moyo, 'Cdm, 5, 0, 2, 87, 1); 
+
+ 
+INSERT INTO Player (id, name, position, Team_id, Goals, Assists, Player_ratings, Access_Id 
+VALUES ('Obeh', 'Cdm', 3, 6, 3, 89, 1); 
+
+
+INSERT INTO Player (id, name, position, Team_id, Goals, Assists, Player_ratings, Access_Id 
+VALUES ('Talisman', 'Cdm', 5, 0, 1, 93, 1); 
+
+ 
+INSERT INTO Player (id, name, position, Team_id, Goals, Assists, Player_ratings, Access_Id 
+VALUES ('Demi, 'Cdm', 4, 0, 2, 92, 1); 
+
+ 
