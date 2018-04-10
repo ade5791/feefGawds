@@ -1,0 +1,11 @@
+-- Access table
+
+CREATE TABLE Access ( Id int,
+Role_name Text
+Functions Text);
+
+INSERT INTO Access (id, Role_name, Functions)
+VALUES ('super user', 'View/edit');
+
+INSERT INTO Access (id, Role_name, Functions)
+VALUES ('Reg user', 'View only');
