@@ -1,8 +1,8 @@
 -- Access table
 
-CREATE TABLE Access ( Id int,
-Role_name Text
-Functions Text);
+CREATE TABLE Access ( Id int primary key auto_increment,
+                      Role_name varchar(20),
+                      Functions Text);
 
 INSERT INTO Access (id, Role_name, Functions)
 VALUES ('super user', 'View/edit');
