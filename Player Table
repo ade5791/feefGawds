@@ -1,5 +1,5 @@
 CREATE TABLE Player ( Id int primary key auto_increment, 
-                                   Name TEXT, 
+                                   Name varchar(20), 
                                    Position TEXT, 
                                    Team_id int, 
                                    Goals int, 
