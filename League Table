@@ -1,4 +1,4 @@
-CREATE TABLE  League ( Id int, 
+CREATE TABLE  League ( Id int primary key auto_increment, 
                                   Team_id int, 
                                   Games_Played int, 
                                   Win int, 
