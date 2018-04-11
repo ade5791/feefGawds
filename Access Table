@@ -4,8 +4,8 @@ CREATE TABLE Access ( Id int primary key auto_increment,
                       Role_name varchar(20),
                       Functions Text);
 
-INSERT INTO Access (id, Role_name, Functions)
+INSERT INTO Access (Role_name, Functions)
 VALUES ('super user', 'View/edit');
 
-INSERT INTO Access (id, Role_name, Functions)
+INSERT INTO Access (Role_name, Functions)
 VALUES ('Reg user', 'View only');
