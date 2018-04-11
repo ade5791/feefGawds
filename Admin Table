@@ -1,5 +1,5 @@
 
-CREATE TABLE Admin ( Id int, 
+CREATE TABLE Admin ( Id int primary key auto_increment,, 
 
                                   Player_Name TEXT, 
                                   Access_id int); 
