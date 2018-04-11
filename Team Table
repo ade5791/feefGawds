@@ -1,10 +1,9 @@
 -- Team Table
 
-CREATE TABLE Team( Id int, 
-
-                                   Name TEXT, 
-                                   Captain TEXT, 
-                                   Co_Captain TEXT, 
+CREATE TABLE Team( Id int primary key auto_increment,, 
+                                   Name varchar(20), 
+                                   Captain varchar(20), 
+                                   Co_Captain varchar(20), 
                                    Team_Ranking int); 
 
  
