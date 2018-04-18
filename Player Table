@@ -1,6 +1,6 @@
 CREATE TABLE Player ( Id int primary key auto_increment, 
                                    Name varchar(20), 
-                                   Position TEXT, 
+                                   Position varchar(20), 
                                    Team_id int, 
                                    Goals int, 
                                    Assists int, 
